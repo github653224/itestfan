@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20382" started-at="2017-03-10T09:03:00Z" finished-at="2017-03-10T09:03:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20382" started-at="2017-03-10T09:03:00Z" finished-at="2017-03-10T09:03:20Z">
+      <class name="SelectByCss.SelectByCssForGetLinks">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SelectByCss.SelectByCssForGetLinks@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="3616" started-at="2017-03-10T17:03:00Z" finished-at="2017-03-10T17:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getLinks()[pri:0, instance:SelectByCss.SelectByCssForGetLinks@f6c48ac]" name="getLinks" duration-ms="15918" started-at="2017-03-10T17:03:04Z" finished-at="2017-03-10T17:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLinks -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SelectByCss.SelectByCssForGetLinks@f6c48ac]" name="afterMethod" is-config="true" duration-ms="836" started-at="2017-03-10T17:03:19Z" finished-at="2017-03-10T17:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- SelectByCss.SelectByCssForGetLinks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
