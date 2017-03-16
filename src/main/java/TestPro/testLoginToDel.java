@@ -1,17 +1,10 @@
 package TestPro;
 
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.*;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
@@ -19,8 +12,6 @@ public class testLoginToDel {
 	
 	  private static WebDriver driver;
 	  private String baseUrl;
-	  private String pathFile;
-	  
 	  String uuid = null;
 	  String name = null;
 	  

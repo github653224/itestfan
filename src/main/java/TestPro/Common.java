@@ -26,7 +26,7 @@ public class Common {
 	   * ¥¶¿ÌSwitchWindow();
 	   * @author Simba
 	   */
-	   static void mySwitchWindow(WebDriver driver) {
+	   public static void mySwitchWindow(WebDriver driver) {
 		// TODO Auto-generated method stub
 		  String currentWindow = driver.getWindowHandle();
 		  Set handles = driver.getWindowHandles();
