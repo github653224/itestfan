@@ -14,9 +14,9 @@
 		<!-- <BrowserCoreType>2</BrowserCoreType> -->
 		
 		<!-- maven 参数配置，这里引用不同的testng.xml -->
-        <xmlFileName>testng-SelectByCss.xml</xmlFileName>
-<!--         <xmlFileName>testng-testPro.xml</xmlFileName>
- -->
+        <!-- <xmlFileName>testng-SelectByCss.xml</xmlFileName> -->
+        <xmlFileName>testng-hierarchies.xml</xmlFileName>
+		<!-- <xmlFileName>testng-testPro.xml</xmlFileName>-->
 		
 		<!-- 这个东西一般false,否则会跳过测试 -->
         <maven.test.skip>false</maven.test.skip>
