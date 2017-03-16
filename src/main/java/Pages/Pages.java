@@ -24,24 +24,17 @@ public class Pages  extends Bases{
 		    driver.switchTo().defaultContent();
 	}
 	 
-	//封装通用的等待延时方法
-	
+	//封装通用的等待延时方法	
 	 void iwait(){
 		 
 	 }
 	
-	//封装通用的findElement方法,返回一个元素
-	
+	//封装通用的findElement方法,返回一个元素	
 	 static void find(String matterName) {
 	}
 
 	
-	//封装通用的frame切换方法
-	void swFrame() {
-	}
-	//封装通用的window切换方法
-	void swWindow() {
-	}
+
 	
 	
 	
